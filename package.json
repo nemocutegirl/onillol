@@ -6,7 +6,7 @@
   "default": "index.html",
   "targets": {
     "main": false
-  },
+  }, 
   "browserslist": "last 10 versions, not dead",
   "scripts": {
     "watch:parcel": "parcel src/index.html",
