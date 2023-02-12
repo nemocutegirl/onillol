@@ -54,7 +54,7 @@ const setRemoteData = async () => {
       );
     }
     await setPic(pic);
-    genIndex(markup);
+    genIndex(markup); 
   } catch (e) {
     throw new Error(e.message);
   }
