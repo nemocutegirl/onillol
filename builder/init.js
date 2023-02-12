@@ -47,7 +47,7 @@ const setRemoteData = async () => {
       res = await axios.get(
         `https://api.telegra.ph/getPage/${article}?return_content=true`
       );
-      const { content } = res.data.result;
+      const { content } = res.data
       markup = content.reduce(
         (string, node) => string + generateMarkupRemote(node),
         ""
