@@ -48,10 +48,7 @@ const setRemoteData = async () => {
         `https://api.telegra.ph/getPage/${article}?return_content=true`
       );
       const { content } = res.data
-      markup = content.reduce(
-        (string, node) => string + generateMarkupRemote(node),
-        ""
-      );
+      markup = content.length ? generateMarkupRemote(content) : "";
     }
     await setPic(pic);
     genIndex(markup); 
