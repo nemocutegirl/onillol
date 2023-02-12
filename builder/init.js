@@ -7,7 +7,7 @@ const {
   generateMarkupLocal,
   generateMarkupRemote,
 } = require("./generateMarkup");
-
+ 
 require("dotenv").config();
 
 if (!process.env.NAME) throw new Error("Please specify NAME in environment.");
