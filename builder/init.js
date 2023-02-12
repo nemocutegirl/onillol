@@ -14,7 +14,7 @@ if (!process.env.NAME) throw new Error("Please specify NAME in environment.");
 if (!process.env.PIC) throw new Error("Please specify PIC in environment.");
 
 const picPath = process.env.PIC;
-const msgPath = "Sending only the best happy birthday wishes to my bestest friend in the whole wide world. I hope you know what your friendship means to me, I love you boy, Happy birthday to our favorite person, we have been best friends for so long now, I can’t remember when you weren’t in my life! Today you get all your heart desires and more. Sending happy birthday wishes to my bestie. Have a blessed birthday, and We will make sure that happens!"
+const msgPath = true
 
 //Local initialization
 const setLocalData = async () => {
