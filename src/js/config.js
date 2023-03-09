@@ -7,5 +7,5 @@ export default {
 
   showScrollMsg: true, // set to false if you do not want the scrolling message
 
-  birthDate: process.env.BIRTH_DATE || '2023-02-15', // Mention birthday date in YYYY-MM-DD format.
+  birthDate: process.env.BIRTH_DATE || '2023-03-9', // Mention birthday date in YYYY-MM-DD format.
 };
